@@ -21,8 +21,16 @@ const Home = () => {
                     <Button className="cust-btn cust-btn-dark">Dark</Button>
                     <Button className="cust-btn cust-btn-link">Link</Button>
                 </div>
-                <span className="text-muted"> You can use any Bootstrap style name, just add &quot;cust-&quot; prefix to the standard Bootstrap style name. </span>
-                <a className="btn btn-primary" href="https://getbootstrap.com/docs/5.1/components/buttons/" target="blank" role="button">Styles</a>
+                <span className="text-muted">
+                    You can use any Bootstrap style name, just add &quot;cust-&quot; prefix to the standard
+                    {' '}
+                    <a href="https://getbootstrap.com/docs/5.1/components/buttons/" target="_blank" rel="noreferrer"><span className="text-muted"> Bootstrap style</span></a>
+                    {' '}
+                    name. For more info, go to
+                    {' '}
+                    <a href="https://github.com/MrStonkus/Components/tree/main/src/Components/Button" target="_blank" rel="noreferrer"><span className="text-muted"> component folder.</span></a>
+                    {' '}
+                </span>
             </fieldset>
             <fieldset>
                 <legend className="comp__title">&quot;Modal&quot;</legend>
@@ -43,8 +51,14 @@ const Home = () => {
                         </p>
                     </Modal>
                 </div>
-                <span className="text-muted"> For more info, read readme.md file in component folder: </span>
-                <a className="btn btn-primary" href="#" target="blank" role="button">Modal</a>
+                <span className="text-muted">
+                    {' '}
+                    For more info, go to readme.md file in
+                    {' '}
+                    {' '}
+                    <a href="https://github.com/MrStonkus/Components/tree/main/src/Components/Modal" target="_blank" rel="noreferrer"><span className="text-muted"> component folder.</span></a>
+                    {' '}
+                </span>
 
             </fieldset>
         </div>

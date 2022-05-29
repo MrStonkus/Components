@@ -2,12 +2,7 @@
   // text-align: center;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  // align-items: center;
-  flex-direction: column;
-}
+
 
 .comp {
   &__title {
@@ -29,6 +24,10 @@ fieldset {
   border: none;
   padding: 0;
   margin-bottom: 2rem;
+}
+
+.text-muted {
+  color: #6c757d !important;
 }
 
 .container {
@@ -61,8 +60,4 @@ fieldset {
   .container {
     max-width: 1140px;
   }
-}
-
-.text-muted {
-  color: #6c757d !important;
 }
